@@ -1,0 +1,125 @@
+/* Footer Container */
+.footer-container {
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Footer Links */
+  .footer-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #ffcc00;
+  }
+  
+  /* Social Icons */
+  .social-icon {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ffcc00;
+    transform: scale(1.2);
+  }
+  
+  /* Footer Images */
+  .footer-images {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid white;
+  }
+  
+  /* Subscribe Button */
+  .subscribe-btn {
+    background-color: #ffcc00;
+    border: none;
+    color: #1e3c72;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #ffc107;
+  }
+  
+  /* Get in Touch Section */
+  .get-in-touch {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #2a5298;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .get-in-touch h5 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #ffcc00;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+  
+  .contact-info span {
+    font-weight: bold;
+    color: #ffc107;
+  }
+  
+  .contact-info p:not(:last-child) {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      text-align: center;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  
+    .social-icon {
+      margin-right: 0;
+    }
+  }
+  
